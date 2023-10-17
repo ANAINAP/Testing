@@ -4,7 +4,7 @@ require('dotenv').config()
 
 const app = express(); 
 
-app.get('/',(req, res)=>{ 
+app.get('/api/user',(req, res)=>{ 
 	res.send("Hello, Welcome to our Page"); 
 } );
 
