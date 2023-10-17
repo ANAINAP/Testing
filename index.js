@@ -10,9 +10,9 @@ app.get('/',(req, res)=>{
 
 
 
-app.listen(process.env.PORT, (error) =>{ 
+app.listen(4000 ,(error) =>{ 
 	if(!error) 
-		console.log("Server is Successfully Running , and App is listening on port "+ process.env.PORT,) 
+		console.log("Server is Successfully Running , and App is listening on port "+ process.env.PORT) 
 	else
 		console.log("Error occurred, server can't start", error); 
 	} 
