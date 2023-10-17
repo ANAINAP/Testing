@@ -8,6 +8,11 @@ app.get('/api/user',(req, res)=>{
 	res.send("Hello, Welcome to our Page"); 
 } );
 
+app.get('/api/new',(req, res)=>{ 
+	res.send("new one"); 
+} );
+
+
 
 
 app.listen(4000 ,(error) =>{ 
